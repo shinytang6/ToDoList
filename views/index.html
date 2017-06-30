@@ -4,18 +4,18 @@
   <title>ToDoList</title>
   <script type="text/javascript" src="/static/js/angular.min.js"></script>
   <script type="text/javascript" src="/static/js/todo.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
 </head>
 <body>
     <div ng-app="myApp" ng-controller="myTask">
-      <h1>ToDo List</h1>
+      <h1>ToDoList</h1>
       <ul class='grey rounded-box'>
         <li ng-repeat='t in tasks'>
         <span class='checkbox'></span>{{t.Title}}
         </li>
       </ul>
         <form>
-          <input type="text" name="task" ng-model="todolist">
+          <input type="text" name="task" ng-model="todolist" class="task">
           <button class="submit" ng-click="todo()">上传</button>
        </form>
     </div>

@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.task{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 24px;
+
+}
+
+.submit{
+    width: 80px;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    opacity: 0.6;
+    background-color: black;
+    border-radius:5px;
+    color: white;
+   position: relative;
+   top: -2px;
+   left: 10px;
+
+
+}
+
+.checkbox{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    margin-right: 8px;
+    border-radius: 2px;
+    border: 1px #ddd solid;
+}
+li{
+    list-style-type:none;
+}
