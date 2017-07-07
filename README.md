@@ -1,4 +1,4 @@
-### Internship
+## Summer Internship
 
 This is a small demo written in Golang  
 
